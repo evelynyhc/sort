@@ -12,5 +12,6 @@ def insert_sort(lists):
             lists[i]=lists[j]
             j-=j
         lists[j+1]=key   
+    return lists
 lists=insert_sort([4,3,6,2,7,1])
 print(lists)        
